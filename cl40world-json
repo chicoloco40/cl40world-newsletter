@@ -1,0 +1,38 @@
+[
+  {
+    "id": "0",
+    "type": "TXT",
+    "host": "20261030031006pm._domainkey",
+    "value": "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCNfBrB7F5NXq/1pC0ZlYhbeGeRi3ZKFG10och/R7RSVcF/LU/y3vh0+01Hii3r2PD6kWojO97iPk6SOM9JnWVn4fI4XUraRq6aC2fOfUE9bCTKwDlQhMGSbOSwv24Q8MrPKS1Z8OkMO8aQv5UQ/Eqv7JTO49BaipsYJ/49XJ3vpQIDAQAB",
+    "optional": false,
+    "valid": true,
+    "outdated": false
+  },
+  {
+    "id": "1",
+    "type": "CNAME",
+    "host": "pm-bounces",
+    "value": "pm.mtasv.net",
+    "optional": false,
+    "valid": false,
+    "outdated": false
+  },
+  {
+    "id": "2",
+    "type": "CNAME",
+    "host": "track",
+    "value": "webhook-consumer.buttondown.email",
+    "optional": false,
+    "valid": true,
+    "outdated": false
+  },
+  {
+    "id": "3",
+    "type": "TXT",
+    "host": "_dmarc",
+    "value": "v=DMARC1; p=quarantine; rua=mailto:940f0c149d7a65a4c6b0f32e5246f6fa@inbound.postmarkapp.com; aspf=r; pct=100",
+    "optional": false,
+    "valid": true,
+    "outdated": false
+  }
+]
